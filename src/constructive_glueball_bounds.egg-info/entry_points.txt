@@ -1,0 +1,3 @@
+[console_scripts]
+constructive-cli = CLI:main
+researcher-tools = TOOLcli:main

@@ -1,0 +1,44 @@
+cp pyproject.toml pyproject.toml.bak 2>/dev/null || true
+
+cat > pyproject.toml <<'PYPROJECT'
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "constructive-glueball-bounds"
+version = "0.2.0"
+description = "Deterministic SU(3) 0++ overlap and glueball calibration pipeline."
+readme = "ReadMe.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{ name = "Keefe Reeves" }]
+dependencies = ["numpy>=1.26,<2.0", "matplotlib>=3.7.0"]
+
+[project.scripts]
+constructive-cli = "CLI:main"
+researcher-tools = "TOOLcli:main"
+
+[tool.setuptools]
+py-modules = ["CLI", "TOOLcli"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]
+PYPROJECT
+
+python3 - <<'PY'
+import sys, tomllib, pathlib
+path = pathlib.Path("pyproject.toml")
+tomllib.loads(path.read_text("utf-8"))
+print("TOML OK")
+PY
+
+rm -rf build dist .venv ./*.egg-info
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip setuptools wheel
+pip install -e .
+
+constructive-cli --help
+researcher-tools --help

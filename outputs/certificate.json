@@ -1,0 +1,45 @@
+{
+  "t0": 6,
+  "dt": 1,
+  "plateau_selected": {
+    "t0": 6,
+    "t_min": 8,
+    "t_max": 20,
+    "threshold": 0.6,
+    "slope_tol": 0.01,
+    "witness": "wopt",
+    "passed": true,
+    "plateau_window": null,
+    "S0_min": 0.8703958010389087,
+    "S0_max": 1.070201647914515,
+    "K_kept": 2
+  },
+  "cross_estimator": {
+    "t0": 6,
+    "t_star": 8,
+    "fit_tmin": 8,
+    "fit_tmax": 19,
+    "F0_fit_at_tmin": 0.9988255987000927,
+    "K_kept": 2
+  },
+  "bound": {
+    "t0": 6,
+    "t": 16,
+    "dt": 10,
+    "Delta_used": 0.55,
+    "c_pref": 1.0,
+    "bound_1_minus_S0": 0.004086771438464067,
+    "delta_meta": {
+      "override": true,
+      "Delta": 0.55
+    }
+  },
+  "gevp_snapshot": {
+    "t0": 6,
+    "dt": 1,
+    "min_cos": 0.9748827564673905,
+    "cond_t0": 1001.5422397886609,
+    "K_kept": 2
+  },
+  "verdict": true
+}

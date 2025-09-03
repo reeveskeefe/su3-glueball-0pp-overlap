@@ -1,0 +1,12 @@
+{
+  "T": 32,
+  "ops": 6,
+  "energies": [
+    0.35,
+    0.9,
+    1.5
+  ],
+  "noise": 0.001,
+  "seed": 42,
+  "file": "outputs/synth_corr.npz"
+}

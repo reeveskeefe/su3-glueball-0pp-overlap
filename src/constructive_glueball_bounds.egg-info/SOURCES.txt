@@ -1,0 +1,8 @@
+ReadMe.md
+pyproject.toml
+src/constructive_glueball_bounds.egg-info/PKG-INFO
+src/constructive_glueball_bounds.egg-info/SOURCES.txt
+src/constructive_glueball_bounds.egg-info/dependency_links.txt
+src/constructive_glueball_bounds.egg-info/entry_points.txt
+src/constructive_glueball_bounds.egg-info/requires.txt
+src/constructive_glueball_bounds.egg-info/top_level.txt

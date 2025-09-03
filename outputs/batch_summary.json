@@ -1,0 +1,52 @@
+{
+  "files": 5,
+  "passes": 5,
+  "fraction_pass": 1.0,
+  "summaries": [
+    {
+      "corr": "outputs_rep/rep_40/synth_corr.npz",
+      "verdict": true,
+      "plateau_passed": true,
+      "F0_fit_at_tmin": 0.9997655210698551,
+      "S0_min": 0.9393714228067713,
+      "S0_max": 1.0,
+      "bound_1_minus_S0": 0.004086771438464067
+    },
+    {
+      "corr": "outputs_rep/rep_41/synth_corr.npz",
+      "verdict": true,
+      "plateau_passed": true,
+      "F0_fit_at_tmin": 0.9997026619840794,
+      "S0_min": 0.9319627647686736,
+      "S0_max": 1.0,
+      "bound_1_minus_S0": 0.004086771438464067
+    },
+    {
+      "corr": "outputs_rep/rep_42/synth_corr.npz",
+      "verdict": true,
+      "plateau_passed": true,
+      "F0_fit_at_tmin": 0.9988255987000927,
+      "S0_min": 0.8703958010389087,
+      "S0_max": 1.0,
+      "bound_1_minus_S0": 0.004086771438464067
+    },
+    {
+      "corr": "outputs_rep/rep_43/synth_corr.npz",
+      "verdict": true,
+      "plateau_passed": true,
+      "F0_fit_at_tmin": 0.9996278635680305,
+      "S0_min": 0.9242397792396372,
+      "S0_max": 1.0,
+      "bound_1_minus_S0": 0.004086771438464067
+    },
+    {
+      "corr": "outputs_rep/rep_44/synth_corr.npz",
+      "verdict": true,
+      "plateau_passed": true,
+      "F0_fit_at_tmin": 0.9996866691710885,
+      "S0_min": 0.9303365872918686,
+      "S0_max": 1.0,
+      "bound_1_minus_S0": 0.004086771438464067
+    }
+  ]
+}
